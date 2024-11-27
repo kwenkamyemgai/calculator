@@ -4,7 +4,7 @@ const specialChars = ['*', '/', '+', '=', '-']
 let output = ''
 
 // Define fuction to calculate based on button clicked.
-const calculate=(btnValue) => { 
+const calculate = (btnValue) => {
   if (btnValue === '=' && output !== '') {
     // if output has '&', replace with '/100' before evaluating.
     output = (output.replace('&', '/100'))
